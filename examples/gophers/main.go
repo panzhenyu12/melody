@@ -6,8 +6,9 @@ import (
 	"strings"
 	"sync"
 
+	"melody"
+
 	"github.com/gin-gonic/gin"
-	"gopkg.in/olahol/melody.v1"
 )
 
 // GopherInfo contains information about the gopher on screen

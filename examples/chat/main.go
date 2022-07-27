@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"gopkg.in/olahol/melody.v1"
+	"melody"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
@@ -22,5 +23,5 @@ func main() {
 		m.Broadcast(msg)
 	})
 
-	r.Run(":5000")
+	r.Run(":8000")
 }
